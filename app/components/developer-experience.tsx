@@ -42,7 +42,7 @@ export function DeveloperExperience() {
                     <CustomBoltIcon />
                   </span>
                 ),
-                text: "Ligntening-fast",
+                text: "Lightning-fast",
               },
               {
                 icon: (

@@ -30,7 +30,7 @@ export const Button = forwardRef(
           "cf-primary-gradient text-black rounded-full",
           size === "small"
             ? "px-4 text-[13px] h-[36px]"
-            : "text-[14px] px-6 h-[40px]",
+            : "text-[16px] px-6 h-[40px]",
           "hover:opacity-80 transition-opacity duration-200",
           className
         )}
