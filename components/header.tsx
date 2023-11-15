@@ -18,7 +18,7 @@ export function Header() {
         </div>
 
         <Dialog content={<ContactForm />}>
-          <Button size="small">Learn More</Button>
+          <Button size="small">Want to know more?</Button>
         </Dialog>
       </div>
     </header>

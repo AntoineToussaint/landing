@@ -45,7 +45,17 @@ export function Hero() {
       <FloatingLines className="-left-[200px] md:-left-[120px] bottom-[30px]" />
       <BlurredBackdrop />
       <div className={clsx("cf-container grid !max-w-[700px] relative")}>
-        <div className={clsx("flex flex-col text-center")}>
+        <div
+          className={clsx("flex flex-col items-center text-center gap-[10px]")}
+        >
+          <div className="p-[1px] w-min rounded-full bg-gradient-to-r from-[rgba(0,255,179,0.2)] via-[rgba(0,255,179,0.6)]  to-[rgba(0,255,179,0.2)]">
+            <div className="bg-neutral-950 rounded-full whitespace-nowrap px-6 h-[35px] flex items-center">
+              <span className="text-[rgba(0,255,179,1)] text-[20px]">
+                Coming Soon
+              </span>
+            </div>
+          </div>
+
           <h1
             className={clsx(
               "text-5xl md:text-6xl lg:text-7xl",
@@ -56,7 +66,7 @@ export function Hero() {
             Make development
             <br />
             <span className="cf-primary-gradient bg-clip-text text-transparent p-1">
-              <>lightening fast</>
+              <>lightning fast</>
               {/* <>focused</> */}
               {/* <>secure</> */}
             </span>
@@ -66,11 +76,11 @@ export function Hero() {
             A unified developer experience and an ecosystem with plugins
           </p>
 
-          <div className={clsx("flex flex-col gap-4 mt-6 items-center")}>
-            <Dialog content={<ContactForm />}>
-              <Button size="small">Learn More</Button>
-            </Dialog>
+          <Dialog content={<ContactForm />}>
+            <Button>Want to know more?</Button>
+          </Dialog>
 
+          <div className={clsx("flex flex-col gap-4 mt-6 items-center")}>
             <span className="text-muted text-[14px] !font-medium flex items-center gap-2">
               <PlayIcon />
               Watch Demo
