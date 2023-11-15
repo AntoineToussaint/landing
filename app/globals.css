@@ -2,13 +2,25 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  @apply bg-neutral-950 text-[#ededed] font-light leading-[1.5];
+}
+
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-  @apply font-bold;
+  @apply font-bold font-heading leading-[1.2];
+}
+
+h2 {
+  @apply text-[30px] md:text-[50px];
+}
+
+h4 {
+  @apply leading-[1.5];
 }
 
 .cf-container {
@@ -16,7 +28,17 @@ h6 {
 }
 
 .cf-card {
-  background: #fff;
-  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.03), 0 2px 4px rgba(0, 0, 0, 0.05),
-    0 12px 24px rgba(0, 0, 0, 0.05);
+  @apply bg-black border border-neutral-800;
+}
+
+.cf-primary-gradient {
+  @apply bg-[#5C7BE9];
+}
+
+.cf-gray-gradient {
+  @apply bg-gradient-to-b  from-[#EDEDED] to-[#9F9F9F];
+}
+
+.cf-border-color {
+  @apply border-neutral-800/60;
 }

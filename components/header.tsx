@@ -1,19 +1,14 @@
-import Image from "next/image";
+import { ContactForm } from "@/app/components/contact-form";
 import { Button } from "./button";
 import { Dialog } from "./dialog";
-import { SurveyForm } from "@/app/components/survey-form";
+import { Logo } from "./logo";
 
 export function Header() {
   return (
-    <header className="h-[64px] border-b border-gray-200">
-      <div className="flex justify-between items-center h-full px-[20px]">
+    <header className="sticky top-0 z-50 h-[64px] bg-neutral-950/40 backdrop-saturate-150 backdrop-blur-md border-b cf-border-color px-[20px] md:px-[40px]">
+      <div className="flex justify-between items-center h-full">
         <div className="flex items-center gap-5">
-          <Image
-            src="/logo_rect.png"
-            alt="Picture of the author"
-            width={180}
-            height={60}
-          />
+          <Logo />
 
           <ul className="hidden font-light text-gray-500 text-[14px] gap-4">
             <li>Docs</li>
@@ -22,8 +17,8 @@ export function Header() {
           </ul>
         </div>
 
-        <Dialog content={<SurveyForm />}>
-          <Button size="small">Want to know more?</Button>
+        <Dialog content={<ContactForm />}>
+          <Button size="small">Learn More</Button>
         </Dialog>
       </div>
     </header>

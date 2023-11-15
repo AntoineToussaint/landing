@@ -1,9 +1,13 @@
+import { Logo } from "./logo";
+
 export function Footer() {
   return (
-    <footer className="h-[64px] border-t border-gray-200">
-      <div className="flex justify-between items-center h-full px-[20px]">
-        <span className="text-[14px] font-light text-gray-500">
-          © 2023 Codefly.ai
+    <footer className="h-[64px] border-t border-neutral-900 px-[20px] md:px-[40px]">
+      <div className="flex items-center justify-between gap-[30px] h-full">
+        <Logo />
+
+        <span className="text-[14px] font-light text-neutral-500">
+          © {new Date().getFullYear()}
         </span>
       </div>
     </footer>
