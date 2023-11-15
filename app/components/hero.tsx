@@ -41,7 +41,7 @@ const demoVideos: DemoVideo[] = [
 export function Hero() {
   return (
     <section className="my-[50px] flex items-center justify-center relative overflow-hidden">
-      <FloatingLines className="top-[20px] md:top-[70px] -right-[200px] md:-right-[120px]" />
+      <FloatingLines className="top-[60px] md:top-[70px] -right-[200px] md:-right-[120px]" />
       <FloatingLines className="-left-[200px] md:-left-[120px] bottom-[30px]" />
       <BlurredBackdrop />
       <div className={clsx("cf-container grid !max-w-[700px] relative")}>
@@ -49,8 +49,8 @@ export function Hero() {
           className={clsx("flex flex-col items-center text-center gap-[10px]")}
         >
           <div className="p-[1px] w-min rounded-full bg-gradient-to-r from-[rgba(0,255,179,0.2)] via-[rgba(0,255,179,0.6)]  to-[rgba(0,255,179,0.2)]">
-            <div className="bg-neutral-950 rounded-full whitespace-nowrap px-6 h-[35px] flex items-center">
-              <span className="text-[rgba(0,255,179,1)] text-[20px]">
+            <div className="bg-neutral-950 rounded-full whitespace-nowrap px-6 h-[75px] flex items-center">
+              <span className="text-[rgba(0,255,179,1)] text-[60px]">
                 Coming Soon
               </span>
             </div>
