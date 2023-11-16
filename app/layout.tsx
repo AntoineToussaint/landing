@@ -29,6 +29,13 @@ export default function RootLayout({
       <body className={clsx(inter.className, archivo.variable)}>
         {children}
       </body>
+      <script
+        defer
+        type="text/javascript"
+        src="https://api.pirsch.io/pirsch-extended.js"
+        id="pirschextendedjs"
+        data-code="xxYlOgDJXp2i9vYD9zIRKNow7stI0EUR"
+      ></script>
     </html>
   );
 }
