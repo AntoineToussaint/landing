@@ -1,7 +1,7 @@
-import type { Metadata } from "next";
-import { Archivo, Inter, DM_Sans } from "next/font/google";
-import "./globals.css";
 import clsx from "clsx";
+import type { Metadata } from "next";
+import { DM_Sans, Inter } from "next/font/google";
+import "./globals.css";
 
 const inter = Inter({
   subsets: ["latin"],
