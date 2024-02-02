@@ -10,8 +10,8 @@ export function FloatingLines({ className }: { className?: string }) {
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
       >
-        <g clip-path="url(#clip0_171_1299)">
-          <g opacity="0.4" clip-path="url(#clip1_171_1299)">
+        <g clipPath="url(#clip0_171_1299)">
+          <g opacity="0.4" clipPath="url(#clip1_171_1299)">
             <path
               d="M-67.7197 144.324L202.405 -11.6323"
               stroke="url(#paint0_linear_171_1299)"
@@ -79,8 +79,8 @@ export function FloatingLines({ className }: { className?: string }) {
             y2="158.552"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#00FFB3" />
-            <stop offset="1" stop-color="#5C7BE9" />
+            <stop stopColor="#00FFB3" />
+            <stop offset="1" stopColor="#5C7BE9" />
           </linearGradient>
           <linearGradient
             id="paint1_linear_171_1299"
@@ -90,8 +90,8 @@ export function FloatingLines({ className }: { className?: string }) {
             y2="171.884"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#00FFB3" />
-            <stop offset="1" stop-color="#5C7BE9" />
+            <stop stopColor="#00FFB3" />
+            <stop offset="1" stopColor="#5C7BE9" />
           </linearGradient>
           <linearGradient
             id="paint2_linear_171_1299"
@@ -101,8 +101,8 @@ export function FloatingLines({ className }: { className?: string }) {
             y2="185.216"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#00FFB3" />
-            <stop offset="1" stop-color="#5C7BE9" />
+            <stop stopColor="#00FFB3" />
+            <stop offset="1" stopColor="#5C7BE9" />
           </linearGradient>
           <linearGradient
             id="paint3_linear_171_1299"
@@ -112,8 +112,8 @@ export function FloatingLines({ className }: { className?: string }) {
             y2="198.548"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#00FFB3" />
-            <stop offset="1" stop-color="#5C7BE9" />
+            <stop stopColor="#00FFB3" />
+            <stop offset="1" stopColor="#5C7BE9" />
           </linearGradient>
           <linearGradient
             id="paint4_linear_171_1299"
@@ -123,8 +123,8 @@ export function FloatingLines({ className }: { className?: string }) {
             y2="211.88"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#00FFB3" />
-            <stop offset="1" stop-color="#5C7BE9" />
+            <stop stopColor="#00FFB3" />
+            <stop offset="1" stopColor="#5C7BE9" />
           </linearGradient>
           <linearGradient
             id="paint5_linear_171_1299"
@@ -134,8 +134,8 @@ export function FloatingLines({ className }: { className?: string }) {
             y2="225.211"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#00FFB3" />
-            <stop offset="1" stop-color="#5C7BE9" />
+            <stop stopColor="#00FFB3" />
+            <stop offset="1" stopColor="#5C7BE9" />
           </linearGradient>
           <linearGradient
             id="paint6_linear_171_1299"
@@ -145,8 +145,8 @@ export function FloatingLines({ className }: { className?: string }) {
             y2="238.543"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#00FFB3" />
-            <stop offset="1" stop-color="#5C7BE9" />
+            <stop stopColor="#00FFB3" />
+            <stop offset="1" stopColor="#5C7BE9" />
           </linearGradient>
           <linearGradient
             id="paint7_linear_171_1299"
@@ -156,8 +156,8 @@ export function FloatingLines({ className }: { className?: string }) {
             y2="251.875"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#00FFB3" />
-            <stop offset="1" stop-color="#5C7BE9" />
+            <stop stopColor="#00FFB3" />
+            <stop offset="1" stopColor="#5C7BE9" />
           </linearGradient>
           <linearGradient
             id="paint8_linear_171_1299"
@@ -167,8 +167,8 @@ export function FloatingLines({ className }: { className?: string }) {
             y2="265.207"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#00FFB3" />
-            <stop offset="1" stop-color="#5C7BE9" />
+            <stop stopColor="#00FFB3" />
+            <stop offset="1" stopColor="#5C7BE9" />
           </linearGradient>
           <linearGradient
             id="paint9_linear_171_1299"
@@ -178,8 +178,8 @@ export function FloatingLines({ className }: { className?: string }) {
             y2="278.539"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#00FFB3" />
-            <stop offset="1" stop-color="#5C7BE9" />
+            <stop stopColor="#00FFB3" />
+            <stop offset="1" stopColor="#5C7BE9" />
           </linearGradient>
           <linearGradient
             id="paint10_linear_171_1299"
@@ -189,8 +189,8 @@ export function FloatingLines({ className }: { className?: string }) {
             y2="291.87"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#00FFB3" />
-            <stop offset="1" stop-color="#5C7BE9" />
+            <stop stopColor="#00FFB3" />
+            <stop offset="1" stopColor="#5C7BE9" />
           </linearGradient>
           <linearGradient
             id="paint11_linear_171_1299"
@@ -200,8 +200,8 @@ export function FloatingLines({ className }: { className?: string }) {
             y2="305.202"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#00FFB3" />
-            <stop offset="1" stop-color="#5C7BE9" />
+            <stop stopColor="#00FFB3" />
+            <stop offset="1" stopColor="#5C7BE9" />
           </linearGradient>
           <linearGradient
             id="paint12_linear_171_1299"
@@ -211,8 +211,8 @@ export function FloatingLines({ className }: { className?: string }) {
             y2="318.534"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#00FFB3" />
-            <stop offset="1" stop-color="#5C7BE9" />
+            <stop stopColor="#00FFB3" />
+            <stop offset="1" stopColor="#5C7BE9" />
           </linearGradient>
           <linearGradient
             id="paint13_linear_171_1299"
@@ -222,8 +222,8 @@ export function FloatingLines({ className }: { className?: string }) {
             y2="331.866"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#00FFB3" />
-            <stop offset="1" stop-color="#5C7BE9" />
+            <stop stopColor="#00FFB3" />
+            <stop offset="1" stopColor="#5C7BE9" />
           </linearGradient>
           <clipPath id="clip0_171_1299">
             <rect width="245" height="290" fill="white" />

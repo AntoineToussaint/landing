@@ -1,7 +1,7 @@
-import type { Metadata } from "next";
-import { Archivo, Inter, DM_Sans } from "next/font/google";
-import "./globals.css";
 import clsx from "clsx";
+import type { Metadata } from "next";
+import { DM_Sans, Inter } from "next/font/google";
+import "./globals.css";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -29,6 +29,13 @@ export default function RootLayout({
       <body className={clsx(inter.className, archivo.variable)}>
         {children}
       </body>
+      <script
+        defer
+        type="text/javascript"
+        src="https://api.pirsch.io/pirsch-extended.js"
+        id="pirschextendedjs"
+        data-code="xxYlOgDJXp2i9vYD9zIRKNow7stI0EUR"
+      ></script>
     </html>
   );
 }
